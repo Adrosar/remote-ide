@@ -1,2 +1,8 @@
 /config/*
-!/config/code-server
+!/config/config.yaml
+
+/local/Machine/*
+!/local/Machine/settings.json
+
+/local/*
+!/local/Machine
