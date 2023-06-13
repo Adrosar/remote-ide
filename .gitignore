@@ -1,0 +1,4 @@
+/project/*
+# Sample application sources. Can be removed:
+!/project/server.js
+!/project/server.go
