@@ -10,8 +10,6 @@ services:
     ports:
       - 8080:8080
     volumes:
-      - $PWD/config:/home/coder/.config/code-server
-      - $PWD/local:/home/coder/.local/share/code-server
       - $PWD/project:/home/coder/project
     networks:
       - main
