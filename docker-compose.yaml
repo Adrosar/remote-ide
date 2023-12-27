@@ -1,9 +1,7 @@
 services:
   codeserver:
     container_name: codeserver-8f448v
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: adrosar/remote-ide
     tty: false
     stdin_open: false
     restart: unless-stopped
