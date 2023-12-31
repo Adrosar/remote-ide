@@ -8,7 +8,7 @@ services:
     ports:
       - 8080:8080
     volumes:
-      - $PWD/project:/home/coder/project
+      - $PWD/workspace:/home/coder/workspace
     networks:
       - main
 networks:
