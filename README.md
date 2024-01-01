@@ -11,7 +11,7 @@
 3. Build image:
 
    ```
-   docker build --tag adrosar/remote-ide
+   docker build --tag adrosar/remote-ide .
    ```
 
 
