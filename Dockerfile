@@ -43,3 +43,7 @@ COPY ./assets/machine-settings.json /home/coder/.local/share/code-server/Machine
 # Kopiowanie przykładowych projektów:
 COPY ./examples/example-go /home/coder/workspace/example-go
 COPY ./examples/example-js /home/coder/workspace/example-js
+
+# Zapewnienie odpowiednich uprawień do plików:
+RUN sudo chown -R coder:coder /home/coder
+
