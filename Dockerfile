@@ -39,6 +39,7 @@ RUN code-server --install-extension mhutchie.git-graph
 # Kopiowanie konfiguracji:
 COPY ./assets/server-config.yaml /home/coder/.config/code-server/config.yaml
 COPY ./assets/machine-settings.json /home/coder/.local/share/code-server/Machine/settings.json
+COPY ./assets/share-coder.json /home/coder/.local/share/code-server/coder.json
 
 # Kopiowanie przykładowych projektów:
 COPY ./examples/example-go /home/coder/workspace/example-go
